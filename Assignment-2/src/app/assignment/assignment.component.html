@@ -1,0 +1,6 @@
+<p>assignment works!</p>
+<label for="">User name</label>
+<hr>
+<input type="text" [(ngModel)]="userName">
+<p>{{userName}}</p>
+<button [disabled]="userName==''" (click)="reset()" class="btn btn-primary">Reset</button>
