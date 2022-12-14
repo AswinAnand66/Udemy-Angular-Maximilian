@@ -1,0 +1,5 @@
+* Directives:
+   Directives are instructions to DOM, we can add diectives with attribute selector
+
+* [ngStyle] allows us to dynamically add styles
+* [ngClass] allows us to dynamically remove classes

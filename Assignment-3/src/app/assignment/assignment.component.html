@@ -1,0 +1,7 @@
+<p>assignment works!</p>
+
+<button class="btn btn-pri" (click)="getPassword()">Get Password</button>
+<p *ngIf="showPassword">Secret Password = tune</p>
+<div *ngFor="let click of buttons; let i= index">
+  <p [ngStyle]="{backgroundColor:(i+1)%5==0?'red':'green'}">Button Clicks {{buttons[i].log}}</p> 
+</div>
