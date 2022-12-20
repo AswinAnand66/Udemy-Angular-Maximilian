@@ -3,3 +3,8 @@
 
 * [ngStyle] allows us to dynamically add styles
 * [ngClass] allows us to dynamically remove classes
+
+
+* Two types of directives, Attribute Directives and Structural Directives
+* Attribute Directive- it only affects the element they are added eg, adding background color to an element
+* Structural Directive - it affect the whole area in the DOM eg, ngIf
